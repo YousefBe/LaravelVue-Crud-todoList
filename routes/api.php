@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ItemController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,3 +18,14 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+// route::get('/items',  [ItemController::class, 'index']);
+
+// route::prefix('/item')->group(function () {
+//     route::PUT('/{id}', [ItemController::class, 'update']);
+//     route::delete('/{id}', [ItemController::class, 'destroy']);
+// });
+
+
+
+route::apiResource('/items', ItemController::class);
