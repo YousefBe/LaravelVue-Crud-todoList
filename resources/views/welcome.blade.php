@@ -8,7 +8,7 @@
     <title>Laravel Vue</title>
 </head>
 <body>
-    <div id="app">
+    <div id="app"  class=" w-full h-full  ">
         <app></app>
        
     </div>
