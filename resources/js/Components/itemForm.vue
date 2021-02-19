@@ -3,7 +3,7 @@
         <div class=" m-8 flex justify-center items-center">
             <div class="">
                 <label for="name" class="inline-block mr-2 text-white text-base"
-                    >Name</label
+                    >Todo</label
                 >
                 <input
                     type="text"

@@ -30658,7 +30658,7 @@ var render = function() {
         _vm._v(" "),
         _c(
           "div",
-          { staticClass: "card  bg-gray-700 rounded-2xl mt-12 m-auto " },
+          { staticClass: " w-96 bg-gray-700 rounded-2xl mt-12 m-auto " },
           [
             _c("item-form", { on: { "new-item": _vm.getItems } }),
             _vm._v(" "),
@@ -30750,7 +30750,7 @@ var render = function() {
               staticClass: "inline-block mr-2 text-white text-base",
               attrs: { for: "name" }
             },
-            [_vm._v("Name")]
+            [_vm._v("Todo")]
           ),
           _vm._v(" "),
           _c("input", {
@@ -30909,7 +30909,7 @@ var render = function() {
       }),
       _vm._v(" "),
       _c("font-awesome-icon", {
-        staticClass: " text-red-800",
+        staticClass: " text-red-800 cursor-pointer",
         attrs: { icon: "trash" },
         on: { click: _vm.deleteItem }
       })

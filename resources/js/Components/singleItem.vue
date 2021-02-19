@@ -14,7 +14,7 @@
         />
         <font-awesome-icon
             icon="trash"
-            class=" text-red-800"
+            class=" text-red-800 cursor-pointer"
             @click="deleteItem"
         ></font-awesome-icon>
     </div>

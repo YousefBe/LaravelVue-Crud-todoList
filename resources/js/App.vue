@@ -2,7 +2,7 @@
     <div class="w-full  min-h-screen bg-gray-900  ">
         <div class="flex flex-col justify-between">
             <the-header></the-header>
-            <div class="card  bg-gray-700 rounded-2xl mt-12 m-auto ">
+            <div class=" w-96 bg-gray-700 rounded-2xl mt-12 m-auto ">
                 <item-form @new-item="getItems"></item-form>
                 <items-list
                     @get-items="getItems"
